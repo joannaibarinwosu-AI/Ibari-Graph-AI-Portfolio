@@ -26,17 +26,19 @@
         opacity: 0.5;
         z-index: -1;
     }
+    /* Single-spaced text for the course content list */
+    .single-spaced-list li {
+      line-height: 1;
+    }
   </style>
 </head>
 <body class="bg-gray-900 text-gray-200 antialiased relative">
 
     <header class="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8 text-center">
-        <div class="flex justify-center mb-6">
-      <img src="https://raw.githubusercontent.com/joannaibarinwosu-AI/Profile-Photo/main/20250220_095203.jpg" 
-         alt="Ibari Joanna Nwosu" 
-         class="w-32 h-32 rounded-full border-4 border-amber-400 object-cover shadow-lg"
+        <img src="https://raw.githubusercontent.com/joannaibarinwosu-AI/Profile-Photo/main/20250220_095203.jpg"
+         alt="Ibari Joanna Nwosu"
+         class="w-20 h-20 rounded-full mx-auto mb-6 border-4 border-amber-400 object-cover shadow-lg"
          onerror="this.onerror=null;this.src='https://placehold.co/128x128/1f2937/e5e7eb?text=IJN';">
-    </div>
     <h1 class="text-4xl sm:text-5xl font-extrabold text-amber-400 tracking-tight">Hi, I’m Ibari Joanna Nwosu</h1>
     <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-400">
       I am a Public Health & AI Researcher with expertise in programme quality, monitoring, evaluation, and generative AI applications for research productivity.
@@ -58,7 +60,7 @@
         <p class="text-gray-300 mb-6">
           <strong>Generative AI for Work & Research</strong> is an 8-week live cohort course that introduces no-code AI tools for task automation and research productivity. It includes live workshops, feedback, community forums, capstone project coaching, and lifetime access to resources.
         </p>
-        <ul class="list-disc list-inside space-y-3 text-gray-300 mb-8">
+        <ul class="list-disc list-inside single-spaced-list text-gray-300 mb-8">
           <li>LLMs & AI for documents and presentations</li>
           <li>AI-automated data analysis</li>
           <li>Literature search & text analysis</li>
@@ -104,6 +106,8 @@
             Click on chatbot icon at lower right
           </a>
         </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
                 <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-amber-400 transition duration-300 shadow-lg hover:shadow-amber-400/20 transform hover:-translate-y-1">
           <h3 class="text-xl font-bold text-amber-300 mb-2">Week 5</h3>
           <p class="text-gray-400 text-sm">Placeholder for submission link and description.</p>
