@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Generative AI for Work & Research - Portfolio</title>
-  <!-- Tailwind CSS for modern styling -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Google Fonts for a clean, modern look -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
@@ -17,28 +15,26 @@
     }
     /* Add a subtle background pattern */
     body::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-image: radial-gradient(circle at top left, rgba(251, 191, 36, 0.1), transparent 30%),
-                          radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.1), transparent 30%);
-        opacity: 0.5;
-        z-index: -1;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: radial-gradient(circle at top left, rgba(251, 191, 36, 0.1), transparent 30%),
+                        radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.1), transparent 30%);
+      opacity: 0.5;
+      z-index: -1;
     }
   </style>
 </head>
 <body class="bg-gray-900 text-gray-200 antialiased relative">
 
-  <!-- Header Section -->
   <header class="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8 text-center">
-    <!-- Profile Image -->
     <img src="https://raw.githubusercontent.com/joannaibarinwosu-AI/Profile-Photo/main/20250220_095203.jpg" 
-         alt="Ibari Joanna Nwosu" 
-         class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-amber-400 object-cover shadow-lg"
-         onerror="this.onerror=null;this.src='https://placehold.co/128x128/1f2937/e5e7eb?text=IJN';">
+        alt="Ibari Joanna Nwosu" 
+        class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-amber-400 object-cover shadow-lg"
+        onerror="this.onerror=null;this.src='https://placehold.co/128x128/1f2937/e5e7eb?text=IJN';">
     <h1 class="text-4xl sm:text-5xl font-extrabold text-amber-400 tracking-tight">Hi, I’m Ibari Joanna Nwosu</h1>
     <p class="mt-4 max-w-2xl mx-auto text-lg text-gray-400">
       I am a Public Health & AI Researcher with expertise in programme quality, monitoring, evaluation, and generative AI applications for research productivity.
@@ -54,7 +50,6 @@
   </header>
 
   <main>
-    <!-- Course Information Section -->
     <section id="course" class="max-w-5xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold mb-8 text-white border-b-2 border-gray-700 pb-2 inline-block">About the Course</h2>
       <div class="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl shadow-2xl border border-gray-700">
@@ -76,11 +71,9 @@
       </div>
     </section>
 
-    <!-- Weekly Submissions Section -->
     <section id="submissions" class="max-w-5xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold mb-8 text-white border-b-2 border-gray-700 pb-2 inline-block">My Weekly Submissions</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Week 1 Card -->
         <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-amber-400 transition duration-300 shadow-lg hover:shadow-amber-400/20 transform hover:-translate-y-1">
           <h3 class="text-xl font-bold text-amber-300 mb-2">Workshop 1: Introduction to LLMs</h3>
           <p class="text-gray-400 text-sm">Building a site to showcase the Graph AI Portfolio Build (this page).</p>
@@ -88,7 +81,6 @@
             View Project
           </a>
         </div>
-        <!-- Week 2 Card - Updated -->
         <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-amber-400 transition duration-300 shadow-lg hover:shadow-amber-400/20 transform hover:-translate-y-1">
           <h3 class="text-xl font-bold text-amber-300 mb-2">Workshop 2: Automated Data Analysis</h3>
           <p class="text-gray-400 text-sm">Analysis of Gapminder data to explore the relationship between global GDP per Capita and Total Fertility Rate, using AI tools.</p>
@@ -96,7 +88,6 @@
             View Report
           </a>
         </div>
-        <!-- Week 3 Card -->
         <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-amber-400 transition duration-300 shadow-lg hover:shadow-amber-400/20 transform hover:-translate-y-1">
           <h3 class="text-xl font-bold text-amber-300 mb-2">Workshop 3: Using LLM APIs in Google Sheets</h3>
           <p class="text-gray-400 text-sm">Analysis of relationship between salary, years of experience and programming languages, using data from Glassdoor.</p>
@@ -104,7 +95,6 @@
             View Report
           </a>
         </div>
-        <!-- Week 4 Card -->
         <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-amber-400 transition duration-300 shadow-lg hover:shadow-amber-400/20 transform hover:-translate-y-1">
           <h3 class="text-xl font-bold text-amber-300 mb-2">Workshop 4: Building a Custom Chatbot</h3>
           <p class="text-gray-400 text-sm">Custom chatbot named Dante built to help users of Graph AI portfolio site access information about me</p>
@@ -112,7 +102,6 @@
             Click on chatbot icon at lower right
           </a>
         </div>
-        <!-- Week 5 Card -->
         <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-amber-400 transition duration-300 shadow-lg hover:shadow-amber-400/20 transform hover:-translate-y-1">
           <h3 class="text-xl font-bold text-amber-300 mb-2">Week 5</h3>
           <p class="text-gray-400 text-sm">Placeholder for submission link and description.</p>
@@ -120,7 +109,6 @@
             Coming Soon
           </a>
         </div>
-        <!-- Week 6 Card -->
         <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-amber-400 transition duration-300 shadow-lg hover:shadow-amber-400/20 transform hover:-translate-y-1">
           <h3 class="text-xl font-bold text-amber-300 mb-2">Week 6</h3>
           <p class="text-gray-400 text-sm">Placeholder for submission link and description.</p>
@@ -128,7 +116,6 @@
             Coming Soon
           </a>
         </div>
-        <!-- Week 7 Card -->
         <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-amber-400 transition duration-300 shadow-lg hover:shadow-amber-400/20 transform hover:-translate-y-1">
           <h3 class="text-xl font-bold text-amber-300 mb-2">Week 7</h3>
           <p class="text-gray-400 text-sm">Placeholder for submission link and description.</p>
@@ -136,7 +123,6 @@
             Coming Soon
           </a>
         </div>
-        <!-- Week 8 Card -->
         <div class="bg-gray-800 p-6 rounded-lg border border-gray-700 hover:border-amber-400 transition duration-300 shadow-lg hover:shadow-amber-400/20 transform hover:-translate-y-1">
           <h3 class="text-xl font-bold text-amber-300 mb-2">Week 8</h3>
           <p class="text-gray-400 text-sm">Placeholder for submission link and description.</p>
@@ -146,21 +132,5 @@
         </div>
       </div>
     </section>
-  </main>
 
-  <!-- Footer Section -->
-  <footer class="mt-12 py-8 text-center text-gray-500 border-t border-gray-700">
-    <p>&copy; <span id="year"></span> Ibari Joanna Nwosu. All rights reserved.</p>
-  </footer>
-
-  <script>
-    // Automatically set the current year in the footer
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-
-<script src="https://cdn.botpress.cloud/webchat/v3.2/inject.js" defer></script>
-<script src="https://files.bpcontent.cloud/2025/09/07/17/20250907174052-5WD50CKI.js" defer></script>
-
-</body>
-</html>
-
+    <section id="contact" class="max-w-5
